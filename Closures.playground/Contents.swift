@@ -30,6 +30,10 @@ print(message)
 
 
 //MARK: CLOSURES AS PARAMETERS
+let driving3 = {
+    print("I'm driving in my car")
+}
+
 // "action: () -> Void" is a way of saying that when you call the function, what ever you set action equal to will occur when "action()" is written in the function
 func travel(action: () -> Void) {
     print("I'm getting ready to go.")
@@ -37,7 +41,7 @@ func travel(action: () -> Void) {
     print("I arrived!")
 }
 
-travel(action: driving)
+travel(action: driving3)
 
 
 //MARK: TRAILING CLOSURE SYNTAX
