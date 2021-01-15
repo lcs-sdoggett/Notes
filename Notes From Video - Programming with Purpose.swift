@@ -18,7 +18,7 @@ import Foundation
 
 // 06:39 Curiosity. Start with curiosity.
 
-// 07:19 "Stop knowing so much and listen, being with listening"
+// 07:19 "Stop knowing so much and listen, begin with listening"
 
 // 11:59 Curiosity weakens fear. Asking "and then what" is very useful. Examine your fear. Ask "and then what" until your fear has nothing left to say.
 
