@@ -1,8 +1,13 @@
 import Cocoa
 
-struct Location {
+class Location {
     var x: Int
     var y: Int
+    
+    init(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+    }
 }
 
 // September at LCS
@@ -28,3 +33,15 @@ home.y
 // Where is school?
 school.x
 school.y
+
+// Change School
+school.y = 100
+
+// Where is home
+home.x
+home.y
+
+// Where is school?
+school.x
+school.y
+
