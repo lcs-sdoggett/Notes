@@ -47,3 +47,39 @@ struct Person2 {
 var ed = Person2(name: "Ed")
 // Because the property family tree is lazy, it will not be a part of ed until its accessed at least once
 ed.familyTree
+
+//MARK: STATIC PROPERTIES AND METHODS
+
+// Class size belongs to the Student class and not an instance of the structure
+struct Student {
+    static var classSize = 0
+    var name: String
+
+    init(name: String) {
+        self.name = name
+        Student.classSize += 1
+    }
+}
+
+let ed2 = Student(name: "Ed")
+let taylor = Student(name: "Taylor")
+// To print classSize, we must refer to the Student struct and not an instance of a student
+print(Student.classSize)
+
+//MARK: ACCESS CONTROL
+
+// Only methods inside Person3 can read private properties such as id. "public' whcih allows all other code to use the methods or properties
+struct Person3 {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
+
+let ed3 = Person3(id: "12345")
+
