@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D0CF82D25C05A1F003E0665 /* PossibleProjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PossibleProjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7D3F016425B0AFD8004E112A /* Closures Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closures Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7D5782BD25B619060036AB7C /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7D5CD25125B725450006DE41 /* Structures and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Structures and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -49,6 +50,7 @@
 		7DA50A6B25ADF4FB00C835BB = {
 			isa = PBXGroup;
 			children = (
+				7D0CF82D25C05A1F003E0665 /* PossibleProjects.playground */,
 				7DE2E50825BA594400CAE258 /* Review.playground */,
 				7D5CD25325B729AF0006DE41 /* Structures Part 2.playground */,
 				7D5CD25125B725450006DE41 /* Structures and Classes.playground */,
