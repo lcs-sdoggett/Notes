@@ -10,4 +10,10 @@ import Cocoa
 
 // Add on: The user sets spending goals for each catagory and compares their monthly spending in each catagory
 
-//MARK: other ideas??
+//MARK: SCREEN TIME MONITOR
+
+// The user would set a desired daily screen time
+
+// They would then input their daily screen time, and the app would give them feedback regarding if they went over or under, and would tell them how to improve
+
+// Not exactly sure how this would be different from the screen time app built into settings, but I think it would be focused around helping the user cut down on screen time
